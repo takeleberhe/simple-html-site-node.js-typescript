@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments Search</title>
+    <!-- Link to external stylesheets -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Comments Search</h1>
+    </header>
+
+    <main>
+        <!-- Search section with input field for comment query -->
+        <section class="search-section">
+            <form action="#" method="post" class="search-form" id="search-form">
+                <!-- Label for screen readers, hidden visually -->
+                <label for="search-input" class="visually-hidden">Search Comments</label>
+                <input 
+                    type="text" 
+                    placeholder="Search comments..." 
+                    id="search-input" 
+                    aria-label="Search comments" 
+                />
+            </form>
+        </section>
+
+        <!-- Results section, initially hidden -->
+        <section class="results-section" id="results-wrapper" style="display: none;">
+            <h2 class="visually-hidden">Search Results</h2>
+            <ul id="results" class="results-list">
+                <!-- Search results will be dynamically injected here -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 All rights reserved.</p>
+    </footer>
+
+    <!-- Load Lodash from CDN for use in search functionality -->
+    <script src="https://cdn.jsdelivr.net/npm/lodash/lodash.min.js"></script>
+
+    <!-- Load the compiled JavaScript from TypeScript -->
+    <script src="./dist/client/script.js"></script>
+
+</body>
+
+</html>

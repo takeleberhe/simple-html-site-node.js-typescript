@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                          // Set target ECMAScript version
+    "module": "ES2020",                          // Set module system to ES2020
+    "strict": true,                              // Enable strict type checking
+    "esModuleInterop": true,                     // Allow interoperability with CommonJS modules
+    "skipLibCheck": true,                        // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true,    // Ensure consistent file name casing
+    "outDir": "./dist",                          // Output directory for compiled JavaScript
+    "rootDir": "./src",                          // Root directory for TypeScript files
+    "moduleResolution": "node",                  // Use Node module resolution strategy
+    "lib": ["ES2020", "DOM", "DOM.Iterable"]     // Include ES2020 and DOM libraries
+  },
+  "include": [
+    "src/client/**/*.ts",                       // Include TypeScript files from the client folder
+    "src/server/**/*.ts"                        // Include TypeScript files from the server folder
+  ],
+  "exclude": [
+    "node_modules"                              // Exclude node_modules from compilation
+  ]
+}
