@@ -33,8 +33,10 @@ Clone the Repository
 Clone the repository to your local machine:
 
 bash
-git clone https://github.com/yourusername/your-repository-name.git
-cd your-repository-name
+git clone https://github.com/takeleberhe/simple-html-site-node.js-typescript.git
+cd simple-html-site-main
+bash
+npm install     #install parent folder dependecies
 Install Backend Dependencies
 Navigate to the src/server directory and install the required dependencies:
 
@@ -48,7 +50,7 @@ bash
 cd ../client
 npm install
 Running the Project
-1. Compile TypeScript
+1. Compile TypeScript      #optional as the typescript is already compiled
 In the root directory of your project, run the TypeScript compiler to generate the JavaScript files for both the client and server:
 ```bash
 tsc
@@ -59,7 +61,7 @@ This will compile the TypeScript files into the dist/client and dist/server dire
 Navigate to the root directory. In your terminal, use the cd command to go to the project root folder, where the dist folder is located:
 
 ```bash
-cd path/to/your/project
+cd to simple-html-site-main   #rootfolder
 ```
 Run the compiled server:
 
