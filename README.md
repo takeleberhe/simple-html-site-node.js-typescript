@@ -34,16 +34,27 @@ Clone the repository to your local machine:
 
 bash
 git clone https://github.com/takeleberhe/simple-html-site-node.js-typescript.git
+
+
 cd simple-html-site-main
+
+
 bash
 npm install     #install parent folder dependecies
+
+
 Install Backend Dependencies
+
+
 Navigate to the src/server directory and install the required dependencies:
 
 bash
 cd src/server
 npm install
+
 Install Frontend Dependencies
+
+
 Navigate to the src/client directory and install the required dependencies:
 
 bash
